@@ -1,0 +1,132 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+   
+}
+
+/* ============ COMPONENTS ============ */
+
+.modal-btn {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+
+
+/* ============ HEADER ============ */
+.header {
+
+}
+
+.menu-link {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    /* color: #FFFFFF; */
+    color: blue;
+
+}
+
+.menu-link:hover,
+.menu-link:active,
+.menu-link:focus {
+    color: #FF6C00;
+}
+
+.phone {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    /* color: #FFFFFF; */
+    color: blue;
+}
+
+.modal-btn:hover,
+.modal-btn:active,
+.modal-btn:focus {
+    /* color:#FFFFFF; */
+    color: blue;
+    background-color: #FF6C00;
+}
+
+/* ============ HERO ============ */
+
+.social-list-link {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
+}
+
+.social-list-link:hover,
+.social-list-link:active,
+.social-list-link:focus {
+    color: #FF6C00;
+}
+
+.hero-suptitle {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    /* color: #FFFFFF; */
+    color: blue;
+}
+
+.hero-description {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+.hero-down-text{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-down-text:hover,
+.hero-down-text:active,
+.hero-down-text:focus {
+    /* color: #FFFFFF; */
+    color: blue;
+}
+
+

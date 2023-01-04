@@ -5,46 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbershop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-     <!-- logo -->
-        <nav>
-            <a href="">
-                <img src="./img/logo/logo.svg" alt="logo" width="69" height="55"/>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="header-nav">
+            <a class="header-link" href=""><img class="logo-img" src="./img/logo/logo.svg" alt="logo" width="69" height="55"/>
             </a>
-            <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Services and prices</a></li>
-                <li><a href="">Barbers</a></li>
-                <li><a href="">Contacts</a></li>
+            <ul class="menu-list">
+                <li class="menu-item list"><a class="menu-link link" href="">About</a></li>
+                <li class="menu-item list"><a class="menu-link link" href="">Services and prices</a></li>
+                <li class="menu-item list"><a class="menu-link link" href="">Barbers</a></li>
+                <li class="menu-item list"><a class="menu-link link" href="">Contacts</a></li>
             </ul>
         </nav>
-        <a href="tel:+380441111111">+38 044 111 11 11 </a>
-        <button type="button">Online-booking</button>
+        <a class="phone link" href="tel:+380441111111">+38 044 111 11 11 </a>
+        <button class="modal-btn" type="button">Online-booking</button>
     </header>
     <main>
-        <section>
-            <ul>
-                <li><a href="" target="_blank" rel="noopener norefferer nofollow">Instagram</a></li>
-                <li><a href="" target="_blank" rel="noopener norefferer nofollow">Youtube</a></li>
-            </ul>
-            <p>A hair salon for men in Kyiv</p>
-            <h1>BarberShop</h1>
-            <p>We are experts in trendy men’s haircuts.
-                We work quickly, carefully and with style.</p>
+    <!-- HERO -->
+        <section class="hero">
+            <div class="hero-left-side">
+                <ul class="social-list">
+                    <li class="social-list-item list"><a class="social-list-link link" href="" target="_blank" rel="noopener norefferer nofollow">Instagram</a></li>
+                    <li class="social-list-item list"><a class="social-list-link link" href="" target="_blank" rel="noopener norefferer nofollow">Youtube</a></li>
+                </ul> 
+            </div>
+            <div class="hero-right-side">
+                <p class="hero-suptitle">A hair salon for men in Kyiv</p>
+                <h1 class="hero-title">BarberShop</h1>
+                <p class="hero-description">We are experts in trendy men’s haircuts.
+                    We work quickly, carefully and with style.</p>
+            <ul class="hero-down-list">
+                <li class="hero-down-item list"><p class="hero-down-text">Back</p></li>
+                <li class="hero-down-item list"><p class="hero-down-text">Forward</p></li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <ul>
-                <li><img src="./img/about/shaving.jpg" alt="shaving" width="270" height="445"/></li>
-                <li><img src="./img/about/haircut.jpg" alt="haircut" width="270" height="445"/></li>
+    <!-- ABOUT -->
+        <section class="about">
+            <ul class="about-list">
+                <li class="about-item list"><img src="./img/about/shaving.jpg" alt="shaving" width="270" height="445"/></li>
+                <li class="about-item list"><img src="./img/about/haircut.jpg" alt="haircut" width="270" height="445"/></li>
             </ul>
-            <p>About</p>
-            <h2>Best Barbershop in your city</h2>
-            <p>If you want to add more confidence to your image, you should definitely visit us.</p>
-            <p>We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with clients. Therefore, we are always ready to improve everyone who comes to us!</p>
-            <button type="button">Online-booking</button>
+            <p class="about-suptitle">About</p>
+            <h2 class="about-title">Best Barbershop in your city</h2>
+            <p class="about-subtitle">If you want to add more confidence to your image, you should definitely visit us.</p>
+            <p class="about-text">We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with clients. Therefore, we are always ready to improve everyone who comes to us!</p>
+            <button class="modal-btn" type="button">Online-booking</button>
         </section>
+     <!-- PRICES -->
         <section>
             <p>Spend your time with the best masters</p>
             <h2>Services and prices</h2>
@@ -84,7 +98,7 @@
                     <p>from 300 uah.</p>
                 </li>
             </ul>
-            <button type="button">Online-booking</button>
+            <button class="modal-btn" type="button">Online-booking</button>
         </section>
         <section>
             <ul>
