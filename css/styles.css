@@ -24,8 +24,62 @@ body {
     cursor: pointer;
 }
 
+.modal-btn-dark-theme {
+    color: #FFFFFF;
+}
 
+.modal-btn-light-theme {
+    color: #303030;
+}
 
+.modal-btn:hover,
+.modal-btn:active,
+.modal-btn:focus {
+    /* color:#FFFFFF; */
+    color: blue;
+    background-color: #FF6C00;
+}
+ 
+.suptitle-dark-theme {
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.suptitle-light-theme {
+    color: #303030;
+}
+
+.suptitle {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.title {
+    font-family: 'Raleway';
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    
+}
+
+.subtitle {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+}
+
+.description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+}
 
 
 /* ============ HEADER ============ */
@@ -60,13 +114,6 @@ body {
     color: blue;
 }
 
-.modal-btn:hover,
-.modal-btn:active,
-.modal-btn:focus {
-    /* color:#FFFFFF; */
-    color: blue;
-    background-color: #FF6C00;
-}
 
 /* ============ HERO ============ */
 
@@ -85,16 +132,7 @@ body {
     color: #FF6C00;
 }
 
-.hero-suptitle {
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.36;
-    text-transform: uppercase;
-    color: rgba(157, 164, 189, 0.6);
-}
-
-.hero-title {
+.main-title {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 72px;
@@ -104,7 +142,7 @@ body {
     color: blue;
 }
 
-.hero-description {
+.hero-subtitle {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 18px;
@@ -129,4 +167,43 @@ body {
     color: blue;
 }
 
+/* ============ ABOUT ============ */
 
+
+.about-title {
+    color: #303030;
+}
+
+.about-subtitle {
+    color: #555555;
+}
+
+.about-description {
+    color: #555555;
+}
+
+/* ============ PRICES ============ */
+
+
+/* ============ ADVANTAGES ============ */
+
+
+/* ============ EMPLOYEES ============ */
+
+/* ============ GALLERY ============ */
+
+.hidden-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  /* ============ CONTACTS ============ */
